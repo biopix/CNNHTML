@@ -1,0 +1,219 @@
+﻿
+/* ::: Font Declarations ::: */
+@font-face{
+	font-family: "28 Days Later";
+	src: url(../fonts/28dayslater.ttf);
+}
+
+/* ::: GENERAL SETTINGS ::: */
+body {
+  font: 100%/1.2 Georgia, "Times New Roman", serif;
+  background-color: #ffffcc;
+}
+
+
+
+.question h2,
+.mod h2 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 700;
+  font-size: .875em;
+}
+
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #1162a4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+img {
+  border: 0;
+}
+
+
+/* ::: CONTAINERS ::: */
+.page {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.container {
+  padding-bottom: 1.9375em;
+}
+
+main {
+  float: left;
+  width: 600px;
+}
+
+.sidebar {
+  float: right;
+  margin-top: 1.875em;
+  width: 300px;
+}
+
+
+/* ::: MASTHEAD ::: */
+.masthead {
+  padding-top: 10px;
+  position: relative;
+}
+
+.logo {
+  margin-bottom: -8px;
+  margin-top: 0;
+}
+
+/* ::: Main Navigation ::: */
+.nav-main {
+  border-bottom: 1px solid #c7c7c8;
+  border-top: 5px solid red;
+  margin-bottom: 0;
+  padding: .45em 0 .5em;
+  background-color:#FF8C7A;
+}
+
+.nav-main li {
+  border-left: 1px solid #c8c8c8;
+  display: inline-block;
+  text-align: left;
+}
+
+.nav-main li:first-child {
+  border-left: none;
+}
+
+.nav-main li:last-child a {
+  padding-right: 20px;
+}
+
+.nav-main a {
+  font-family: 'Bree Serif', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #292929;
+  display: inline-block;
+  font-size: 1.125em; /* 18px/16px */
+  padding: .5em 1.15em .5em 1.4em;
+}
+
+.nav-main a:hover {
+  color: #029443;
+  background-color:#292929;
+  text-decoration: none;
+}
+
+/* ::: MAIN CONTENT ::: */
+main > .post:first-child > h1 {
+  margin-top: 0.904em;
+}
+
+h1 {
+  margin-bottom: .4125em;
+}
+
+
+/* ::: SIDEBAR ::: */
+.mod h2 {
+  border-bottom: 1px solid #dbdbdb;
+  margin-top: 2.571em;
+  padding-bottom: .75em;
+}
+
+/* ::: Question ::: */
+.question {
+  background-color: #2b2b2b;
+  padding: 0.313em 0.625em 0.625em;
+}
+
+.question img {
+  border: 5px solid #bebebe;
+}
+
+.question h2,
+.question p {
+  color: #dadada;
+}
+
+.question p {
+  font-size: 0.813em;
+  line-height: 1.5;
+}
+
+.question p::first-letter {
+   color:red;
+   font-size:1.75em;
+   font-weight:bold;
+}
+
+.year {
+  margin: 1.438em 0 0.813em;
+}
+
+/* ::: Other links ::: */
+.links {
+  margin: 1.5em 0 4.125em;
+  padding-left: 40px;
+  width: 270px;
+  list-style-image: url('../images/arrow.png');
+}
+
+.links li {
+  margin-bottom: 1.1em;
+}
+
+.links a {
+  display: block;
+  font-size: 1.125em;
+  color:brown;
+}
+
+.links a:hover {
+   color:white;
+   background-color:brown;
+}
+
+/* ::: FOOTER ::: */
+footer {
+  border-top: 2px solid #cacbcb;
+  background-color:#FF8C7A;
+  clear:both;
+}
+
+footer > p {
+   text-align:center;
+}
+
+/* ::: Misc Adjustments ::: */
+.back-to-top {
+   clear:both;
+}
+
+section > h2 > img {
+   vertical-align: middle;
+}
+
+section > a > img:hover {
+   opacity:0.5;
+}
+
+section > h2 {
+   font-family: 'Bree Serif', serif;
+}
+
+main > h1 {
+   font-family: "28 Days Later", serif;
+   font-size:3.75em;   /* equals to 60px */
+   color: #212121;
+}
